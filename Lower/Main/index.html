@@ -56,87 +56,91 @@
             <li><a href="ftp://demo:password@test.rebex.net/readme.txt" > FTP? </a></li>
                
         </ul>
-        <p>
-                 <article id="description">Гиперссылка — часть гипертекстового документа, ссылающаяся на элемент в этом документе или на другой объект, 
-                    <br/> расположенный на локальном диске или в компьютерной сети, либо на элементы этого объекта.
-                </article>
-        </p>
-            <p><h3>Форма для заполнения:</h3> </p>
-            <div>
-                <form action="/" method="POST">
+        
+           
+    </div>
+    <p>
+        <div id="description">Гиперссылка — часть гипертекстового документа, ссылающаяся на элемент в этом документе или на другой объект, 
+           <br/> расположенный на локальном диске или в компьютерной сети, либо на элементы этого объекта.
+        </div>
+    </p>
+
+
+    <p><h3>Форма для заполнения:</h3> </p>
+    <div>
+        <form action="/" method="POST">
+            <label>
+                Фамилия:
+                <br />
+                <input name="second-name" value="Иванов" />
+            </label>
+            <br />
+            <label>
+                Имя:
+                <br />
+                <input name="first-name" value="Иван" />
+            </label>
+            <br />
+            <label>
+                Отчество:
+                <br />
+                <input name="surname" value="Иванович" />
+            </label>
+            <br />
+            <label>
+                Телефон:<br />
+                <input name="field-tel"
+                  type="tel"
+                  placeholder="Введите ваш телефон" />
+              </label><br />
+              <label>
+                Email:<br />
+                <input name="field-email"
+                  type="email"
+                  placeholder="Введите вашу почту" />
+              </label><br />
+              <label>
+                Введите дату рождения:<br />
+                <input name="field-date"
+                  value="2003-10-13"
+                  type="date" />
+              </label><br />
+              Выберете ваш пол:<br />
+                <label><input type="radio" checked="checked"
+                    name="radio-group-1" value="Male" />
+                    Мужчина</label>
+                <label><input type="radio"
+                    name="radio-group-1" value="Female" />
+                    Женщина</label><br />
+                    <br/>
                     <label>
-                        Фамилия:
+                        Выберете ваши любимые языки программирования:
                         <br />
-                        <input name="second-name" value="Иванов" />
-                    </label>
-                    <br />
-                    <label>
-                        Имя:
-                        <br />
-                        <input name="first-name" value="Иван" />
-                    </label>
-                    <br />
-                    <label>
-                        Отчество:
-                        <br />
-                        <input name="surname" value="Иванович" />
-                    </label>
-                    <br />
-                    <label>
-                        Телефон:<br />
-                        <input name="field-tel"
-                          type="tel"
-                          placeholder="Введите ваш телефон" />
+                        <select name="favorite-langs[]"
+                          multiple="multiple">
+                          <option value="Pascal">Pascal</option>
+                          <option value="C#" selected="selected">C#</option>
+                          <option value="C++">C++</option>
+                          <option value="JavaScript">JavaScript</option>
+                          <option value="PHP">PHP</option>
+                          <option value="Python">Python</option>
+                          <option value="Haskel">Haskel</option>
+                          <option value="Clojure">Clojure</option>
+                          <option value="Prolog">Prolog</option>
+                          <option value="Scala">Scala</option>
+                        </select>
                       </label><br />
                       <label>
-                        Email:<br />
-                        <input name="field-email"
-                          type="email"
-                          placeholder="Введите вашу почту" />
+                        Ваша биография:<br />
+                        <textarea name="bio" cols="45" rows="10">A long time ago, back in the early 1900s...</textarea>
                       </label><br />
-                      <label>
-                        Введите дату рождения:<br />
-                        <input name="field-date"
-                          value="2003-10-13"
-                          type="date" />
-                      </label><br />
-                      Выберете ваш пол:<br />
-                        <label><input type="radio" checked="checked"
-                            name="radio-group-1" value="Male" />
-                            Мужчина</label>
-                        <label><input type="radio"
-                            name="radio-group-1" value="Female" />
-                            Женщина</label><br />
-                            <br/>
-                            <label>
-                                Выберете ваши любимые языки программирования:
-                                <br />
-                                <select name="favorite-langs[]"
-                                  multiple="multiple">
-                                  <option value="Pascal">Pascal</option>
-                                  <option value="C#" selected="selected">C#</option>
-                                  <option value="C++">C++</option>
-                                  <option value="JavaScript">JavaScript</option>
-                                  <option value="PHP">PHP</option>
-                                  <option value="Python">Python</option>
-                                  <option value="Haskel">Haskel</option>
-                                  <option value="Clojure">Clojure</option>
-                                  <option value="Prolog">Prolog</option>
-                                  <option value="Scala">Scala</option>
-                                </select>
-                              </label><br />
-                              <label>
-                                Ваша биография:<br />
-                                <textarea name="bio" cols="45" rows="10">A long time ago, back in the early 1900s...</textarea>
-                              </label><br />
-                              <br />
-                            <label><input type="checkbox" checked="checked"
-                                name="check-1" />
-                                с контрактом ознакомлен(а)</label><br />
-                                <br/>
-                            <input type="submit" value="Сохранить" />
-                </form>
-            </div>
+                      <br />
+                    <label><input type="checkbox" checked="checked"
+                        name="check-1" />
+                        с контрактом ознакомлен(а)</label><br />
+                        <br/>
+                    <input type="submit" value="Сохранить" />
+        </form>
     </div>
     
 </body>

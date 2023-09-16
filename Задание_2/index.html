@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>КосмоНовости</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header>
+                <a href="index.html"><img src="images/logo.png" alt="Логотип сайта - КосмоНовости" id="logo_img"></a>
+                <div>
+                    <div class="header_url">
+                        <a href="pages/Community.html">Сообщество</a>
+                        <a href="pages/Blog.html">Блоги</a>
+                        <a href="pages/News.html">Новости</a>
+                    </div>
+                    <span id="title">КосмоНовости</span>
+                    
+                </div>
+            </header>
+            <nav>
+                <div class="url_list">
+                    <ul>
+                        <li><a href="https://naked-science.ru/community/883330">«Ударный кратер» на пляже в Ирландии оказался ямой, вырытой двумя молодыми людьми</a></li>
+                        <li><a href="https://naked-science.ru/community/883302">Объявлены лауреаты 33-й Шнобелевской премии</a></li>
+                        <li><a href="https://naked-science.ru/community/883232">«Хаббл», подвинься: создание камеры нового космического телескопа завершилось</a></li>
+                        <li><a href="https://naked-science.ru/community/883231">Телескоп «Чандра» запечатлел одни из самых красивых объектов во Вселенной</a></li>
+                    </ul>
+                </div>
+                <div id="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Название планеты</th>
+                                <th>Масса (кг)</th>
+                                <th>Диаметр (тыс. км)</th>
+                                <th>Количество спутников</th>
+                                <th>Длина суток (земные сутки)</th>
+                            </tr>
+                            
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Меркурий</td>
+                                <td>3,3x10<sup>23</sup></td>
+                                <td>4,87</td>
+                                <td>0</td>
+                                <td>58,65</td>
+                            </tr>
+                            <tr>
+                                <td>Венера</td>
+                                <td>4,87x10<sup>24</sup></td>
+                                <td>12,1</td>
+                                <td>0</td>
+                                <td>243</td>
+                            </tr>
+                            <tr>
+                                <td>Земля</td>
+                                <td>5,976x10<sup>24</sup></td>
+                                <td>12,756</td>
+                                <td>1</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Марс</td>
+                                <td>6,4x10<sup>23</sup></td>
+                                <td>3,67</td>
+                                <td>2</td>
+                                <td>1,03</td>
+                            </tr>
+                            <tr>
+                                <td>Юпитер</td>
+                                <td>1,9x10<sup>27</sup></td>
+                                <td>143,76</td>
+                                <td>16</td>
+                                <td>0,41</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    
+                </div>
+                <div class="form">
+                    <span>Оставьте свою заявку для публикаций статей</span>
+                    <form action="/" method="POST">
+                        <label>
+                            Фамилия:
+                            <br />
+                            <input name="second-name" value="Иванов" />
+                        </label>
+                        <br />
+                        <label>
+                            Имя:
+                            <br />
+                            <input name="first-name" value="Иван" />
+                        </label>
+                        <br />
+                        <label>
+                            Отчество:
+                            <br />
+                            <input name="surname" value="Иванович" />
+                        </label>
+                        <br />
+                        <label>
+                            Телефон:<br />
+                            <input name="field-tel"
+                              type="tel"
+                              placeholder="Введите ваш телефон" />
+                          </label><br />
+                          <label>
+                            Email:<br />
+                            <input name="field-email"
+                              type="email"
+                              placeholder="Введите вашу почту" />
+                          </label><br />
+                          <label>
+                            Введите дату рождения:<br />
+                            <input name="field-date"
+                              value="2003-10-13"
+                              type="date" />
+                          </label><br />
+                          Выберете ваш пол:<br />
+                            <label><input type="radio" checked="checked"
+                                name="radio-group-1" value="Male" />
+                                Мужчина</label>
+                            <label><input type="radio"
+                                name="radio-group-1" value="Female" />
+                                Женщина</label><br />
+                                <br/>
+                                <label>
+                                    Выберете ваши любимые языки программирования:
+                                    <br />
+                                    <select name="favorite-langs[]"
+                                      multiple="multiple">
+                                      <option value="Pascal">Pascal</option>
+                                      <option value="C#" selected="selected">C#</option>
+                                      <option value="C++">C++</option>
+                                      <option value="JavaScript">JavaScript</option>
+                                      <option value="PHP">PHP</option>
+                                      <option value="Python">Python</option>
+                                      <option value="Haskel">Haskel</option>
+                                      <option value="Clojure">Clojure</option>
+                                      <option value="Prolog">Prolog</option>
+                                      <option value="Scala">Scala</option>
+                                    </select>
+                                    <br/>
+                                  </label><br/>
+                                  <label>
+                                    Ваша биография:<br />
+                                    <textarea name="bio" cols="90" rows="10">A long time ago, back in the early 1900s...</textarea>
+                                  </label><br />
+                                  <br />
+                                <label><input type="checkbox" checked="checked"
+                                    name="check-1" />
+                                    с контрактом ознакомлен(а)</label><br />
+                                    <br/>
+                                <input class="button" type="submit" value="Сохранить" />
+                    </form>
+                </div>
+            </nav>
+            
+        </div>
+        
+        <footer>
+            <span>
+                В чем смысл жизни, вселенной и вообще? 
+            </span>
+            <span>
+                Ксения Косоногова (42)
+            </span>
+        </footer>
+    </div>
+    
+</body>
+</html>

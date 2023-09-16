@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    background-color: #012442;
+    color: rgb(211, 192, 170);
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content{
+    flex: 1 0 auto;
+}
+
+header{
+    width: 100%;
+    max-width: 960px;
+    height: 120px;
+    background-color: #3d7792;
+    border: #5BA0BF solid 3px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #ffb158;
+    border-radius: 0px 0px 15px 15px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+header>div{
+    width: 100%;
+}
+
+nav{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+#logo_img{
+    float: left;
+    width: 150px;
+    height: 120px;
+}
+
+footer{
+    width: 100%;
+    max-width: 960px;
+    height: 100px;
+    margin: 0 auto;
+    background-color:aquamarine;
+    flex: 0 0 auto;
+    background-color: #3d7792;
+    color: #FFA566;
+    border-radius: 15px 15px 0px 0px;
+    border: #5BA0BF solid 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer>span{
+    padding: 20px;
+    color:#FFA566;
+}
+
+#title{
+    font-size: 45px;
+    padding-top: 50px;
+    margin-left: 10px;
+}
+
+.header_url{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 30px;
+}
+
+.header_url>a{
+    text-decoration: none;
+    color: #ff8153;
+    padding: 3px;
+    margin: 0px 8px;
+}
+
+.header_url>a:hover{
+    color: #fc6833;
+}
+
+.url_list a{
+    color: #FFA566;
+}
+.url_list a:hover{
+    color: #ff8833;
+}
+
+.url_list li{
+    padding: 5px 0;
+}
+
+
+#table>table{
+    margin: 20px auto;
+    border: #3d7792 solid 3px;
+}
+
+#table th{
+    color: #e4754d;
+    padding: 10px;
+    background-color:#0c3355;
+}
+
+#table td{
+   text-align: center;
+}
+
+#table tr:nth-child(odd){
+    background-color: #0a477c;
+ }
+
+.form form{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.form span{
+    font-size: 30px;
+    color: #FFA566;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    background-color:#5BA0BF;
+    border: #0a477c solid 1px;
+    border-radius: 5px;
+    color:#0a477c;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color:#32a4da;
+}
+
+.button:active{
+    background-color:#2680aa;
+}
+
+input{
+    background-color: #3d7792;
+    border: none;
+    height: 25px;
+    color:#FFA566;
+    font-size: 20px;
+}
+::placeholder{
+    color:rgb(204, 192, 176)
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Task5</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h3>Специальный заказ</h3>
+            <label for="count">
+                Введите количество товара
+                <br>
+                <input id="count" name="count" type="number"/>
+            </label>
+            <label for="type">
+                Введите тип товара
+                <br>
+                <select id="type" name="type"> 
+                    <option value="Eternal_youth">Вечная молодость</option>
+                    <option value="Mind_Reading">Чтение мыслей</option>
+                    <option value="Excellent_memory">Отличная память</option>
+                    <option value="Koreans">Различать корейцев</option>
+                </select>
+            </label>
+            <input id="button" type="submit" value="Узнать цену">
+        </form>
+        <p id="answer"></p>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</body>
+</html>

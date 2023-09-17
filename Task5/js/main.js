@@ -6,13 +6,13 @@ productTypes.set("Koreans", 10);
 
 function CountPrice() {
     event.preventDefault();
-    let count = $("#count").val();
+    let count = document.getElementById("count").value;
     let m = count.match(/^[0-9]+$/);
     if(m !== null && count != 0)
     {
-        let typeIndex = $("#type option:selected").val();
+        let typeIndex = document.getElementById("type").value; 
         let result = "Общая сумма: " + productTypes.get(typeIndex) * count;
-        $("#answer").text(result);
+        document.getElementById("answer").innerHTML = result;
     }
     else{
         alert("Не корректное количество товара, исправьте -_-");

@@ -17,7 +17,7 @@ body{
 }
 
 header{
-    width: 100%;
+    width: inherit;
     height: 120px;
     background-color: #3d7792;
     border: #5BA0BF solid 3px;

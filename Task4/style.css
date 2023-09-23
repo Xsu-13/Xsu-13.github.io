@@ -16,6 +16,7 @@ body{
 
 header{
     border-radius: 0 0 20px 20px;
+    border: #2F3148 solid 2px;
 }
 
 .bg-head{
@@ -66,6 +67,7 @@ tr:nth-child(even)
 
 footer{
     border-radius: 20px 20px 0 0;
+    border: #2F3148 solid 2px;
 }
 
 .links{

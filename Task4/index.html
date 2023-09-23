@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">  
+  <title>КосмоНовости</title>
+</head>
+<body class="p-0 m-0 text-link2 fw-medium">
+    <div class="container-fluid bg">
+            <header class="row bg-head p-3">
+                <div class="col-sm-3 col-lg-2">
+                    <a href="index.html">
+                        <img class="img-fluid" src="images/logo.png" alt="Логотип сайта - КосмоНовости">
+                    </a>
+                </div>
+                
+                <div class="col-sm-9 col-lg-10 d-flex flex-row justify-content-between">
+                    <div class="h1 display-5 fw-bold text-title align-self-end py-3">КосмоНовости</div>
+                    <div class="list-link flex flex-row justify-content-around">
+                        <a class="px-2 h4 text-link text-decoration-none" href="pages/Community.html">Сообщество</a>
+                        <a class="px-2 h4 text-link text-decoration-none" href="pages/Blog.html">Блоги</a>
+                        <a class="px-2 h4 text-link text-decoration-none" href="pages/News.html">Новости</a>
+                    </div>
+                </div>
+            </header>
+            <nav class=" container-fluid col-lg-7 col-sm-12 d-flex flex-column">
+                <div class="list-link-mobile mt-3 py-2 d-flex flex-column text-center container-fluid bg-links">
+                    <a class="px-2 h4 text-link text-decoration-none" href="pages/Community.html">Сообщество</a>
+                    <a class="px-2 h4 text-link text-decoration-none" href="pages/Blog.html">Блоги</a>
+                    <a class="px-2 h4 text-link text-decoration-none" href="pages/News.html">Новости</a>
+                </div>
+                <div class="links d-flex justify-content-center pt-5">
+                    <ul>
+                        <li class="py-2"><a class="text-decoration-none h5 text-link2 text-link2-to-hover" href="https://naked-science.ru/community/883330">«Ударный кратер» на пляже в Ирландии оказался ямой, вырытой двумя молодыми людьми</a></li>
+                        <li class="py-2"><a class="text-decoration-none h5 text-link2 text-link2-to-hover" href="https://naked-science.ru/community/883302">Объявлены лауреаты 33-й Шнобелевской премии</a></li>
+                        <li class="py-2"><a class="text-decoration-none h5 text-link2 text-link2-to-hover" href="https://naked-science.ru/community/883232">«Хаббл», подвинься: создание камеры нового космического телескопа завершилось</a></li>
+                        <li class="py-2"><a class="text-decoration-none h5 text-link2 text-link2-to-hover" href="https://naked-science.ru/community/883231">Телескоп «Чандра» запечатлел одни из самых красивых объектов во Вселенной</a></li>
+                    </ul>
+                </div>
+                <div class="new-table py-3 mt-5 d-flex justify-content-center">
+                    <table>
+                        <thead>
+                            <tr class="text-center">
+                                <th>Название планеты</th>
+                                <th>Масса (кг)</th>
+                                <th>Диаметр (тыс. км)</th>
+                                <th>Количество спутников</th>
+                                <th>Длина суток (земные сутки)</th>
+                            </tr>
+                            
+                        </thead>
+                        <tbody>
+                            <tr class="text-center">
+                                <td>Меркурий</td>
+                                <td>3,3x10<sup>23</sup></td class="text-center">
+                                <td>4,87</td>
+                                <td>0</td>
+                                <td>58,65</td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>Венера</td>
+                                <td >4,87x10<sup>24</sup></td>
+                                <td>12,1</td>
+                                <td>0</td>
+                                <td>243</td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>Земля</td>
+                                <td>5,976x10<sup>24</sup></td>
+                                <td>12,756</td>
+                                <td>1</td>
+                                <td>1</td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>Марс</td>
+                                <td>6,4x10<sup>23</sup></td>
+                                <td>3,67</td>
+                                <td>2</td>
+                                <td>1,03</td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>Юпитер</td>
+                                <td>1,9x10<sup>27</sup></td>
+                                <td>143,76</td>
+                                <td>16</td>
+                                <td>0,41</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    
+                </div>
+                <div class="subtitle d-flex justify-content-center h4 m-5 text-link2">Оставьте свою заявку для публикаций статей</div>
+                <div class=" form d-flex justify-content-center">
+                    
+                    <form action="/" method="POST">
+                        <label>
+                            Фамилия:
+                            <br />
+                            <input name="second-name" value="Иванов" />
+                        </label>
+                        <br />
+                        <label>
+                            Имя:
+                            <br />
+                            <input name="first-name" value="Иван" />
+                        </label>
+                        <br />
+                        <label>
+                            Отчество:
+                            <br />
+                            <input name="surname" value="Иванович" />
+                        </label>
+                        <br />
+                        <label>
+                            Телефон:<br />
+                            <input name="field-tel"
+                              type="tel"
+                              placeholder="Введите ваш телефон" />
+                          </label><br />
+                          <label>
+                            Email:<br />
+                            <input name="field-email"
+                              type="email"
+                              placeholder="Введите вашу почту" />
+                          </label><br />
+                          <label>
+                            Введите дату рождения:<br />
+                            <input name="field-date"
+                              value="2003-10-13"
+                              type="date" />
+                          </label><br />
+                          Выберете ваш пол:<br />
+                            <label><input type="radio" checked="checked"
+                                name="radio-group-1" value="Male" />
+                                Мужчина</label>
+                            <label><input type="radio"
+                                name="radio-group-1" value="Female" />
+                                Женщина</label><br />
+                                <br/>
+                                <label>
+                                    Выберете ваши любимые языки программирования:
+                                    <br />
+                                    <select name="favorite-langs[]"
+                                      multiple="multiple">
+                                      <option value="Pascal">Pascal</option>
+                                      <option value="C#" selected="selected">C#</option>
+                                      <option value="C++">C++</option>
+                                      <option value="JavaScript">JavaScript</option>
+                                      <option value="PHP">PHP</option>
+                                      <option value="Python">Python</option>
+                                      <option value="Haskel">Haskel</option>
+                                      <option value="Clojure">Clojure</option>
+                                      <option value="Prolog">Prolog</option>
+                                      <option value="Scala">Scala</option>
+                                    </select>
+                                    <br/>
+                                  </label><br/>
+                                  <label>
+                                    Ваша биография:<br />
+                                    <textarea name="bio" cols="40" rows="10">A long time ago, back in the early 1900s...</textarea>
+                                  </label><br />
+                                  <br />
+                                <label><input type="checkbox" checked="checked"
+                                    name="check-1" />
+                                    с контрактом ознакомлен(а)</label><br />
+                                    <br/>
+                                <input class="button" type="submit" value="Сохранить" />
+                    </form>
+                </div>
+            </nav> 
+        <footer class="row bg-head p-4 mt-5 text-center">
+            <span class="col-6">
+                В чем смысл жизни, вселенной и вообще? 
+            </span>
+            <span class="col-6">
+                Ксения Косоногова (42)
+            </span>
+        </footer>
+    </div>
+</html>

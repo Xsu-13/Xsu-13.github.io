@@ -202,12 +202,6 @@ input{
     .url_list{
         order:1;
     }
-    
-    #table{
-        order:2;
-        margin-top: 0px;
-        font-size: 25px;
-    }
 
     .header_url{
         flex-direction: row-reverse;
@@ -215,7 +209,6 @@ input{
     }
 
     #title{
-        font-size: 38px;
         order: 2;
         padding-top: 50px;
         margin-left: 10px;
@@ -250,5 +243,10 @@ input{
     }
     .second{
         border: none;
+    }
+    #table{
+        order:2;
+        margin-top: 0px;
+        font-size: 25px;
     }
 }

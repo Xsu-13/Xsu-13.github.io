@@ -34,16 +34,8 @@ header{
 .new-table{
     background-color: #587099;
     border: #2F3148 solid 2px;
-    order:1;
 }
 
-.subtitle{
-    order:3;
-}
-
-.form{
-    order:4;
-}
 .list-link{
     visibility:hidden;
 }
@@ -70,19 +62,7 @@ footer{
     border: #2F3148 solid 2px;
 }
 
-.links{
-    order: 2;
-}
-
-
 @media (min-width: 960px){
-    .links{
-        order: 1;
-    }
-    .new-table{
-        order:2;
-    }
-
     body{
         font-size: large;
     }

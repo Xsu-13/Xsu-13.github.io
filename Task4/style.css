@@ -73,4 +73,7 @@ footer{
     .list-link-mobile{
         visibility:hidden;
     }
+    .new-table{
+        font-size: 12px;
+    }
 }

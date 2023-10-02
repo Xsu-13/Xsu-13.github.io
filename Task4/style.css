@@ -34,6 +34,7 @@ header{
 .new-table{
     background-color: #587099;
     border: #2F3148 solid 2px;
+    font-size: 12px;
 }
 
 .list-link{
@@ -74,6 +75,6 @@ footer{
         visibility:hidden;
     }
     .new-table{
-        font-size: 12px;
+        font-size: medium;
     }
 }

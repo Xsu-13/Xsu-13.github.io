@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Task5</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h3>Специальный заказ</h3>
+            <label for="count">
+                Введите количество товара
+                <br>
+                <input id="count" name="count" />
+            </label>
+            <label for="type">
+                <fieldset>
+                    <legend>Выберете тип услуги:</legend>
+                  
+                    <div>
+                      <input type="radio" id="huey" name="type" value="0" checked />
+                      <label for="huey">Путешествие на Марс</label>
+                    </div>
+                  
+                    <div>
+                      <input type="radio" id="dewey" name="type" value="1" />
+                      <label for="dewey">Экскурсия по Юпитеру</label>
+                    </div>
+                  
+                    <div>
+                      <input type="radio" id="louie" name="type" value="2" />
+                      <label for="louie">Сауна у Солнца</label>
+                    </div>
+                </fieldset>
+                
+            </label>
+            <label for="options" id="selectField">
+                <legend>Выберете места для посещения:</legend>
+                <select name="select" id="select" multiple>
+                    <option value="opt1">Посещение спутника Европа</option>
+                    <option value="opt2" selected>Погружение в Большое красное пятно</option>
+                    <option value="opt3">Наблюдение за полярным сиянием</option>
+                </select>
+            </label>
+            <fieldset class="checkboxes" id="check">
+                <legend>Выберете услуги:</legend>
+              
+                <div>
+                  <input type="checkbox" id="scales" name="scales" value="prop1" checked />
+                  <label for="scales">Гейзер-аэромассаж</label>
+                </div>
+              
+                <div>
+                  <input type="checkbox" id="horns" name="horns" value="prop2" />
+                  <label for="horns">Тропический душ</label>
+                </div>
+            </fieldset>
+
+        </form>
+        <p id="answer"></p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -73,7 +73,7 @@ input, select{
     body{
         font-size: 21px;
     }
-    #select{
+    #options{
         font: inherit;
     }
     form{

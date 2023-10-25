@@ -61,13 +61,13 @@ body{
 
 .slick-arrow.slick-prev{
     left:0;
-    background: url('/images/arrow.jpg') 0 0 / 100% no-repeat;
+    background: url('../images/arrow.jpg') 0 0 / 100% no-repeat;
     border: none;
 }
 
 .slick-arrow.slick-next{
     right: 0;
-    background: url('/images/arrow2.jpg') 0 0 / 100% no-repeat;
+    background: url('../images/arrow2.jpg') 0 0 / 100% no-repeat;
     border: none;
 }
 

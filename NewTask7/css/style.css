@@ -46,7 +46,7 @@ body{
     font-size: 0;
     width: 30px;
     height: 40px;
-    margin: -40px 0px 0px 0px;
+    margin: -40px 50px 0px 50px;
 }
 
 .slick-list{
@@ -98,5 +98,6 @@ body{
     .slick-arrow{
         width: 60px;
         height: 80px;
+        margin: -40px -20px 0px -20px;
     }
 }
